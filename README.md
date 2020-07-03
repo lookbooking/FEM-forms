@@ -4,3 +4,8 @@
 
 ##### Requirements:
 1 - Kafka
+
+Mac:
+```Mac OS X
+brew install kafka
+```
