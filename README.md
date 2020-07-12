@@ -9,3 +9,9 @@ Mac:
 ```Mac OS X
 brew install kafka
 ```
+
+Or direct by Apache Kafka: https://kafka.apache.org/downloads
+
+2 - Change the ``kafka/server.properties`` to the following configuration section:
+
+```buildoutcfg
