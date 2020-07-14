@@ -15,3 +15,7 @@ Or direct by Apache Kafka: https://kafka.apache.org/downloads
 2 - Change the ``kafka/server.properties`` to the following configuration section:
 
 ```buildoutcfg
+listeners=PLAINTEXT://localhost:9092
+```
+
+3 - Create a virtalenv for Python3 `python3 -m venv env` and then `source env/bin/activate`
