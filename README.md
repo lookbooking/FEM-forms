@@ -21,3 +21,8 @@ listeners=PLAINTEXT://localhost:9092
 3 - Create a virtalenv for Python3 `python3 -m venv env` and then `source env/bin/activate`
 
 4 - Install the dependencies from requirements.txt, run `pip install -r requirements.txt`
+
+5 - Run the files using `python3  python3 producer_consumer_parse_recipes.py` 
+
+The result should be:
+![kafka-running](/img/kafka-running.png)
