@@ -14,3 +14,7 @@ if __name__ == '__main__':
     for msg in consumer:
         record = json.loads(msg.value)
         calories = int(record['calories'])
+        title = record['title']
+
+        if calories > calories_threshold:
+            print('Alert: {} calories count is {}'.format(title, calories))
