@@ -18,3 +18,7 @@ if __name__ == '__main__':
 
         if calories > calories_threshold:
             print('Alert: {} calories count is {}'.format(title, calories))
+        sleep(3)
+
+    if consumer is not None:
+        consumer.close()
