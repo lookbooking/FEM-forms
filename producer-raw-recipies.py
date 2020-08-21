@@ -1,1 +1,1 @@
-from time i
+from time impor
