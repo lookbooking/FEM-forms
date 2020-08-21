@@ -1,1 +1,1 @@
-from time impor
+from time import sleep
