@@ -1,3 +1,3 @@
 from time import sleep
 
-import requ
+import requests
