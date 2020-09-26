@@ -1,4 +1,4 @@
 from time import sleep
 
 import requests
-from bs4 import Beautif
+from bs4 import BeautifulS
