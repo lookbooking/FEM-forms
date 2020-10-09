@@ -5,4 +5,4 @@ from bs4 import BeautifulSoup
 from kafka import KafkaProducer
 
 
-d
+def
