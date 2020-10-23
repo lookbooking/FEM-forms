@@ -5,4 +5,4 @@ from bs4 import BeautifulSoup
 from kafka import KafkaProducer
 
 
-def publish_messa
+def publish_message(pr
