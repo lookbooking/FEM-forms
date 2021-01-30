@@ -12,4 +12,4 @@ def publish_message(producer_instance, topic_name, key, value):
         producer_instance.send(topic_name, key=key_bytes, value=value_bytes)
         producer_instance.flush()
         print('Message published successfully.')
-    except Exceptio
+    except Exception 
