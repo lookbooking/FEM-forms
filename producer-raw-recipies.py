@@ -13,3 +13,4 @@ def publish_message(producer_instance, topic_name, key, value):
         producer_instance.flush()
         print('Message published successfully.')
     except Exception as ex:
+       
