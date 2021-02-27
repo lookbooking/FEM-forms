@@ -14,4 +14,4 @@ def publish_message(producer_instance, topic_name, key, value):
         print('Message published successfully.')
     except Exception as ex:
         print('Exception in publishing message')
-        pr
+        print
