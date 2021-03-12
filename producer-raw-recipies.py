@@ -17,4 +17,4 @@ def publish_message(producer_instance, topic_name, key, value):
         print(str(ex))
 
 
-def connect_k
+def connect_kafka_
