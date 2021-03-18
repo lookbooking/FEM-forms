@@ -18,4 +18,4 @@ def publish_message(producer_instance, topic_name, key, value):
 
 
 def connect_kafka_producer():
-    
+    _prod
