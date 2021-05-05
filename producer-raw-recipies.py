@@ -20,4 +20,4 @@ def publish_message(producer_instance, topic_name, key, value):
 def connect_kafka_producer():
     _producer = None
     try:
-        _producer = KafkaProducer(bootstrap_servers=['localhost:9092'], api_ver
+        _producer = KafkaProducer(bootstrap_servers=['localhost:9092'], api_version=
