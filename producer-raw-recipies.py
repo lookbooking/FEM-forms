@@ -23,4 +23,5 @@ def connect_kafka_producer():
         _producer = KafkaProducer(bootstrap_servers=['localhost:9092'], api_version=(0, 10))
     except Exception as ex:
         print('Exception while connecting Kafka')
-        print(str(ex)
+        print(str(ex))
+    f
