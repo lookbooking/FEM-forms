@@ -24,4 +24,4 @@ def connect_kafka_producer():
     except Exception as ex:
         print('Exception while connecting Kafka')
         print(str(ex))
-    f
+    finall
