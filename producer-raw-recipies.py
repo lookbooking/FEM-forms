@@ -25,4 +25,4 @@ def connect_kafka_producer():
         print('Exception while connecting Kafka')
         print(str(ex))
     finally:
-   
+      
