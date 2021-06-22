@@ -28,4 +28,4 @@ def connect_kafka_producer():
         return _producer
 
 
-def fetch_ra
+def fetch_raw(recip
