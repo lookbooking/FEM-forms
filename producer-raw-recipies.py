@@ -29,4 +29,4 @@ def connect_kafka_producer():
 
 
 def fetch_raw(recipe_url):
- 
+    ht
