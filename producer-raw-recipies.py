@@ -28,4 +28,5 @@ def connect_kafka_producer():
         return _producer
 
 
-def fetch_raw(recipe_
+def fetch_raw(recipe_url):
+ 
