@@ -30,4 +30,4 @@ def connect_kafka_producer():
 
 def fetch_raw(recipe_url):
     html = None
-    print('Processing..{}'.fo
+    print('Processing..{}'.forma
