@@ -32,4 +32,5 @@ def fetch_raw(recipe_url):
     html = None
     print('Processing..{}'.format(recipe_url))
     try:
-        r = requests.get(recipe_url, headers=header
+        r = requests.get(recipe_url, headers=headers)
+ 
