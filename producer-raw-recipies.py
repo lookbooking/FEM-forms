@@ -33,4 +33,4 @@ def fetch_raw(recipe_url):
     print('Processing..{}'.format(recipe_url))
     try:
         r = requests.get(recipe_url, headers=headers)
-        if r.status
+        if r.status_code
