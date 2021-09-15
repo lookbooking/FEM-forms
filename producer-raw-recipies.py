@@ -34,4 +34,4 @@ def fetch_raw(recipe_url):
     try:
         r = requests.get(recipe_url, headers=headers)
         if r.status_code == 200:
-            html = 
+            html = r.te
