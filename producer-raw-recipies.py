@@ -35,4 +35,5 @@ def fetch_raw(recipe_url):
         r = requests.get(recipe_url, headers=headers)
         if r.status_code == 200:
             html = r.text
-    except Exception as 
+    except Exception as ex:
+ 
