@@ -36,4 +36,5 @@ def fetch_raw(recipe_url):
         if r.status_code == 200:
             html = r.text
     except Exception as ex:
-        print('Exception while accessing raw html
+        print('Exception while accessing raw html')
+    
