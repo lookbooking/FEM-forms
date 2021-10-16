@@ -38,4 +38,4 @@ def fetch_raw(recipe_url):
     except Exception as ex:
         print('Exception while accessing raw html')
         print(str(ex))
-    fin
+    finall
