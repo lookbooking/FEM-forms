@@ -39,4 +39,6 @@ def fetch_raw(recipe_url):
         print('Exception while accessing raw html')
         print(str(ex))
     finally:
-        return html.str
+        return html.strip()
+
+
