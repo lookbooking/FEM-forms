@@ -44,4 +44,4 @@ def fetch_raw(recipe_url):
 
 def get_recipes():
     recipies = []
-    salad_url 
+    salad_url = '
