@@ -46,4 +46,4 @@ def get_recipes():
     recipies = []
     salad_url = 'https://www.allrecipes.com/recipes/96/salad/'
     url = 'https://www.allrecipes.com/recipes/96/salad/'
-    prin
+    print(
