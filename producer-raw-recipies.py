@@ -48,4 +48,5 @@ def get_recipes():
     url = 'https://www.allrecipes.com/recipes/96/salad/'
     print('Accessing list')
 
-    try
+    try:
+  
