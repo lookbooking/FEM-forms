@@ -49,4 +49,4 @@ def get_recipes():
     print('Accessing list')
 
     try:
-        r = requests.get
+        r = requests.get(url
