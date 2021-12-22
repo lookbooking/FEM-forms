@@ -50,4 +50,4 @@ def get_recipes():
 
     try:
         r = requests.get(url, headers=headers)
-  
+    
