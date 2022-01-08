@@ -52,4 +52,4 @@ def get_recipes():
         r = requests.get(url, headers=headers)
         if r.status_code == 200:
             html = r.text
-            soup = Be
+            soup = Beautifu
