@@ -53,4 +53,4 @@ def get_recipes():
         if r.status_code == 200:
             html = r.text
             soup = BeautifulSoup(html, 'lxml')
-     
+        
