@@ -54,4 +54,4 @@ def get_recipes():
             html = r.text
             soup = BeautifulSoup(html, 'lxml')
             links = soup.select('.fixed-recipe-card__h3 a')
-     
+          
