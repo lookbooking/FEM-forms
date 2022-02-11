@@ -56,3 +56,5 @@ def get_recipes():
             links = soup.select('.fixed-recipe-card__h3 a')
             idx = 0
             for link in links:
+
+  
