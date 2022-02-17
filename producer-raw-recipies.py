@@ -57,4 +57,5 @@ def get_recipes():
             idx = 0
             for link in links:
 
-                slee
+                sleep(2)
+ 
