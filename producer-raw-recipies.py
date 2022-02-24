@@ -58,4 +58,4 @@ def get_recipes():
             for link in links:
 
                 sleep(2)
-                recipe = fetch_raw(link['href'
+                recipe = fetch_raw(link['href'])
