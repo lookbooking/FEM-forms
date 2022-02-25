@@ -59,4 +59,4 @@ def get_recipes():
 
                 sleep(2)
                 recipe = fetch_raw(link['href'])
-                recipie
+                recipies.
