@@ -61,3 +61,4 @@ def get_recipes():
                 recipe = fetch_raw(link['href'])
                 recipies.append(recipe)
                 idx += 1
+   
