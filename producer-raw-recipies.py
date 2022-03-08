@@ -62,4 +62,4 @@ def get_recipes():
                 recipies.append(recipe)
                 idx += 1
     except Exception as ex:
-        print('Excepti
+        print('Exception in
