@@ -63,4 +63,5 @@ def get_recipes():
                 idx += 1
     except Exception as ex:
         print('Exception in get_recipes')
-        print(str(ex)
+        print(str(ex))
+    
