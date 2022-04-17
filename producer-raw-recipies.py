@@ -70,4 +70,4 @@ def get_recipes():
 
 if __name__ == '__main__':
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Macint
+        'User-Agent': 'Mozilla/5.0 (Macintosh; 
