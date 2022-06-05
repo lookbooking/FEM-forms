@@ -74,4 +74,5 @@ if __name__ == '__main__':
         'Pragma': 'no-cache'
     }
 
-    all_recipes = get_recip
+    all_recipes = get_recipes()
+ 
