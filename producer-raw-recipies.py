@@ -77,4 +77,4 @@ if __name__ == '__main__':
     all_recipes = get_recipes()
     if len(all_recipes) > 0:
         kafka_producer = connect_kafka_producer()
-        for 
+        for recip
