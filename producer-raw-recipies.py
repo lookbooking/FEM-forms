@@ -78,4 +78,4 @@ if __name__ == '__main__':
     if len(all_recipes) > 0:
         kafka_producer = connect_kafka_producer()
         for recipe in all_recipes:
-            publish
+            publish_mess
