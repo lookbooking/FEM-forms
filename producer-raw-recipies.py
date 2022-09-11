@@ -79,4 +79,4 @@ if __name__ == '__main__':
         kafka_producer = connect_kafka_producer()
         for recipe in all_recipes:
             publish_message(kafka_producer, 'raw_recipes', 'raw', recipe.strip())
-        if kafka_produce
+        if kafka_producer is 
