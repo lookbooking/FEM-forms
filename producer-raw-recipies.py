@@ -80,4 +80,4 @@ if __name__ == '__main__':
         for recipe in all_recipes:
             publish_message(kafka_producer, 'raw_recipes', 'raw', recipe.strip())
         if kafka_producer is not None:
-           
+            
