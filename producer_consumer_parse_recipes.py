@@ -16,3 +16,7 @@ def publish_message(producer_instance, topic_name, key, value):
     except Exception as ex:
         print('Exception in publishing message')
         print(str(ex))
+
+
+def connect_kafka_producer():
+    _producer = None
