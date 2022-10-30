@@ -27,3 +27,6 @@ def connect_kafka_producer():
         print(str(ex))
     finally:
         return _producer
+
+
+def parse(markup):
