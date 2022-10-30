@@ -30,3 +30,9 @@ def connect_kafka_producer():
 
 
 def parse(markup):
+    title = '-'
+    submit_by = '-'
+    description = '-'
+    calories = 0
+    ingredients = []
+    rec = {}
