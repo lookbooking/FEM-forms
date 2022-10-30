@@ -36,3 +36,5 @@ def parse(markup):
     calories = 0
     ingredients = []
     rec = {}
+
+    try:
