@@ -38,3 +38,7 @@ def parse(markup):
     rec = {}
 
     try:
+
+        soup = BeautifulSoup(markup, 'lxml')
+        # title
+        title_section = soup.select('.recipe-summary__h1')
