@@ -45,3 +45,11 @@ def parse(markup):
         # submitter
         submitter_section = soup.select('.submitter__name')
         # description
+        description_section = soup.select('.submitter__description')
+        # ingredients
+        ingredients_section = soup.select('.recipe-ingred_txt')
+
+        # calories
+        calories_section = soup.select('.calorie-count')
+        if calories_section:
+            calories = calories_section[0].text.replace('cals', '').strip()
