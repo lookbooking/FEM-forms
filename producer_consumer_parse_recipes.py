@@ -42,3 +42,6 @@ def parse(markup):
         soup = BeautifulSoup(markup, 'lxml')
         # title
         title_section = soup.select('.recipe-summary__h1')
+        # submitter
+        submitter_section = soup.select('.submitter__name')
+        # description
