@@ -53,3 +53,9 @@ def parse(markup):
         calories_section = soup.select('.calorie-count')
         if calories_section:
             calories = calories_section[0].text.replace('cals', '').strip()
+
+        if ingredients_section:
+            for ingredient in ingredients_section:
+                ingredient_text = ingredient.text.strip()
+                if 'Add all ingredients to list' not in ingredient_text and ingredient_text != '':
+                    ingredients.append({'step': ingredient.text.strip()})
