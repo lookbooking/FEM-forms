@@ -62,3 +62,9 @@ def parse(markup):
 
         if description_section:
             description = description_section[0].text.strip().replace('"', '')
+
+        if submitter_section:
+            submit_by = submitter_section[0].text.strip()
+
+        if title_section:
+            title = title_section[0].text
