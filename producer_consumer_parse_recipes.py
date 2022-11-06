@@ -59,3 +59,6 @@ def parse(markup):
                 ingredient_text = ingredient.text.strip()
                 if 'Add all ingredients to list' not in ingredient_text and ingredient_text != '':
                     ingredients.append({'step': ingredient.text.strip()})
+
+        if description_section:
+            description = description_section[0].text.strip().replace('"', '')
