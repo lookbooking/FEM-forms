@@ -68,3 +68,12 @@ def parse(markup):
 
         if title_section:
             title = title_section[0].text
+
+        rec = {'title': title, 'submitter': submit_by, 'description': description, 'calories': calories,
+               'ingredients': ingredients}
+
+    except Exception as ex:
+        print('Exception while parsing')
+        print(str(ex))
+    finally:
+        return json.dumps(rec)
