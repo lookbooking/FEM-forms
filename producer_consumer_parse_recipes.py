@@ -84,3 +84,5 @@ if __name__ == '__main__':
     parsed_records = []
     topic_name = 'raw_recipes'
     parsed_topic_name = 'parsed_recipes'
+
+    consumer = KafkaConsumer(topic_name, auto_offset_reset='earliest',
