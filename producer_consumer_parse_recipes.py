@@ -77,3 +77,10 @@ def parse(markup):
         print(str(ex))
     finally:
         return json.dumps(rec)
+
+
+if __name__ == '__main__':
+    print('Running Consumer..')
+    parsed_records = []
+    topic_name = 'raw_recipes'
+    parsed_topic_name = 'parsed_recipes'
