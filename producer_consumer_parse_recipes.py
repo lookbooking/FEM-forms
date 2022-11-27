@@ -91,3 +91,10 @@ if __name__ == '__main__':
         html = msg.value
         result = parse(html)
         parsed_records.append(result)
+
+    consumer.close()
+    sleep(5)
+
+    if len(parsed_records) > 0:
+        print('Publishing records..')
+        producer = connect_kafka_producer()
