@@ -1,2 +1,2 @@
 beautifulsoup4==4.7.1
-certifi==201
+certifi==2019.
