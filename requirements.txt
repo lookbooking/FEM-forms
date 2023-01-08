@@ -3,4 +3,4 @@ certifi==2019.3.9
 chardet==3.0.4
 idna==2.8
 kafka-python==1.4.6
-lxm
+lxml==
