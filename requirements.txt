@@ -4,4 +4,4 @@ chardet==3.0.4
 idna==2.8
 kafka-python==1.4.6
 lxml==4.3.3
-reques
+requests==2.
